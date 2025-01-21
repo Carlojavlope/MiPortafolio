@@ -168,7 +168,7 @@ html {
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 2px;
 }
 
 #sobremi .sobremi h2 {
@@ -671,8 +671,18 @@ footer a {
   .sobremi__cv {
     margin-left: 2.5rem;
   }
+  .titulo__parrafo{
+    text-align: center;
+  }
 }
-
+@media (min-width: 320px) {
+  .sobremi__cv {
+    margin: left 0rem;;
+  }
+  .titulo__parrafo{
+    text-align: justify;
+  }
+}
 @media screen and (max-width: 800px) {
   .redes {
     display: none;
