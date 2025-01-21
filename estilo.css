@@ -667,6 +667,11 @@ footer a {
 .content-descarga i {
   margin-left: 5px;
 }
+@media (min-width: 320px) {
+  .sobremi__cv {
+    margin-left: 2.5;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .redes {
