@@ -153,9 +153,13 @@ html {
 
 #sobremi .contenedor-foto img {
   padding: 10px;
+    width: 80%;
+    border-radius: 50px;
+    background-color: #000;
+  /* padding: 10px;
   width: 100%;
   border-radius: 50px;
-  background-color: #f3f3f3;
+  background-color: #f3f3f3; */
 }
 
 #sobremi .sobremi {
@@ -723,6 +727,9 @@ footer a {
   }
   #sobremi .contenedor-foto img {
     padding: 8px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+
   }
   #sobremi .sobremi .titulo-seccion {
     text-align: center;

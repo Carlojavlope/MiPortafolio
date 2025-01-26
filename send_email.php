@@ -16,13 +16,13 @@ if ($dataArray === null) {
 }
 
 $to = 'loepezjavier@gmail.com';  
-$subject = 'Calculator';
-$message = 'Data taken from calculator' . "\n";
+$subject = 'Contacto';
+$message = 'portafolio' . "\n";
 
 foreach ($dataArray as $usuario) {
 $message .= 'N.:' . $usuario['id'] . "\n";
 $message .= 'Nombre: ' . $usuario['nombre'] . "\n";
-$message .= 'Mail: ' . $usuario['mail'] . "\n";
+$message .= 'Mail: ' . $usuario['email'] . "\n";
 $message .= 'Mensaje: ' . $usuario['mensaje'] . "\n";
 }
 
